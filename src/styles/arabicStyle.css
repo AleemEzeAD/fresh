@@ -1,0 +1,36 @@
+/* Changing Font Family to Noto Sans Arabic if the language is arabic */
+body.RTL,
+body.RTL h1,
+body.RTL h2,
+body.RTL h3,
+body.RTL h4,
+body.RTL h5,
+body.RTL h6,
+body.RTL p,
+body.RTL a,
+body.RTL button {
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+body.RTL h1,
+body.RTL h2,
+body.RTL h3,
+body.RTL h4,
+body.RTL h5,
+body.RTL h6 {
+    text-align: start;
+}
+
+/* Changing Font Family to Noto Sans Arabic if the language is arabic */
+/* =====  Hero Section Started  ====== */
+body.RTL .Hero .mt-4 {
+    display: flex;
+    align-items: start;
+}
+
+/* =====  Hero Section Ended  ====== */
+body.RTL .Natural figure img {
+    left: 0%;
+    right: unset;
+    top: 20%;
+}
